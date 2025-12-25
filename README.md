@@ -1,8 +1,8 @@
 # CrabFormer
-Code release for "CrabFormer: RGB-D Segmentation and Pose Estimation for Front-End Loading of Piled Chesapeake Blue Crabs"
+Code release for **CrabFormer: RGB-D Segmentation and Pose Estimation for Front-End Loading of Piled Chesapeake Blue Crabs**
 Mohamed Amr Ali, Faranguisse Sadrieh, Benjamin Wu, Yang Tao
 
-Abstract
+## Abstract
 CrabFormer is a multitasking transformer model developed to tackle the challenges of front-end loading in the automated processing of Chesapeake blue crabs. Existing methods often struggle to accurately identify crabs in chaotic, piled configurations, where occlusions and overlapping are common. CrabFormer addresses this by combining instance segmentation and keypoint prediction using RGB-D inputs to detect crabs and estimate their orientation. Utilizing a dual-patch Swin-T backbone, the model processes RGB and depth data separately, effectively capturing visual and geometric features. CrabFormer is evaluated on a custom dataset comprising discrete, overlapping, and piled crabs. It achieves a segmentation Average Precision (AP) of 67.84 and Average Recall (AR) of 76.29, while its keypoint prediction AP and AR are 62.43 and 77.23, respectively. The model outperforms state-of-the-art transformer-based segmentation and keypoint prediction models, particularly in the most complex piled cases, demonstrating improvements in both AP and AR. It excels in identifying the topmost crab in a pile, a key task for automated processing. Additionally, CrabFormer achieves competitive inference times while maintaining superior multitasking performance. These results highlight CrabFormer’s potential to enhance the automation of front-end loading in the seafood industry, reducing labor reliance and improving operational efficiency. Future work will expand the dataset and explore the model’s applicability to other crustaceans with similar morphological complexities.
 
 Last updated: Thu 25 Dec 2025 01:47:05 PM EST

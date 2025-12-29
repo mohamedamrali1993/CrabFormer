@@ -85,21 +85,21 @@ dataset_names= [
         "crab_pile_val_core_top_instance" # MAA: Validation Set for Core of Top Instance Only
     ]
 json_file_paths = [
-        "/home/bmv/crab_loading_cv/labels/Easy_case_train_intact.json",
-        "/home/bmv/crab_loading_cv/labels/Easy_case_train_intact_2.json",
-        "/home/bmv/crab_loading_cv/labels/Easy_case_val_intact.json",
-        "/home/bmv/crab_loading_cv/labels/Medium_case_train_intact.json",
-        "/home/bmv/crab_loading_cv/labels/Medium_case_train_intact_2.json",
-        "/home/bmv/crab_loading_cv/labels/Medium_case_val_intact.json",
-        "/home/bmv/crab_loading_cv/labels/Piled_case_train_intact.json",
-        "/home/bmv/crab_loading_cv/labels/Piled_case_train_intact_2.json",
-        "/home/bmv/crab_loading_cv/labels/Piled_case_val_intact.json",
-        "/home/bmv/crab_loading_cv/labels/Piled_case_val_intact_top_instance.json",
-        "/home/bmv/crab_loading_cv/labels/Piled_case_val_intact_core.json",
-        "/home/bmv/crab_loading_cv/labels/Piled_case_val_intact_core_top_instance.json",
+        "CrabFormer/labels/Easy_case_train_intact.json",
+        "CrabFormer/labels/Easy_case_train_intact_2.json",
+        "CrabFormer/labels/Easy_case_val_intact.json",
+        "CrabFormer/labels/Medium_case_train_intact.json",
+        "CrabFormer/labels/Medium_case_train_intact_2.json",
+        "CrabFormer/labels/Medium_case_val_intact.json",
+        "CrabFormer/labels/Piled_case_train_intact.json",
+        "CrabFormer/labels/Piled_case_train_intact_2.json",
+        "CrabFormer/labels/Piled_case_val_intact.json",
+        "CrabFormer/labels/Piled_case_val_intact_top_instance.json",
+        "CrabFormer/labels/Piled_case_val_intact_core.json",
+        "CrabFormer/labels/Piled_case_val_intact_core_top_instance.json",
     ]
 image_roots = [
-        "/home/bmv/crab_loading_cv/Datasets/",
+        "CrabFormer/Datasets/",
     ]
 
 # register with detectron2 => get json data (calls empty annotations)
